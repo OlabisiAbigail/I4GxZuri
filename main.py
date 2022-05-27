@@ -1,9 +1,9 @@
-def find_anagrams(str1, str2):
-    str1 =input("String 1:")
-    str2 =input("String 2:")
+def find_anagram(word, anagram):
+    word =input("Word:")
+    anagram =input("Anagram:")
 
-    if sorted(str1) == sorted(str2):
+    if sorted(word) == sorted(anagram):
         print("True")
     else: 
 	    print("False")
-find_anagrams("str1", "str2")
+find_anagram("word", "anagram")
